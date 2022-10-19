@@ -435,12 +435,14 @@ margin-left: 10px;
 {  background-color: #ebebeb;
     width: 250px;
     height: 150px;
-    padding: 50px 39px 39px 50px;
+    padding: 50px 57px 96px 50px;
 }
+
 .btn-dashboard:hover{
     width: 250px;
     height: 150px;
     padding: 50px 39px 39px 50px;
     box-shadow: #000 1px 9px 20px 0px;
-    transition: 0.3s;
+  
+  transition: 0.3s ease-out;
 }
