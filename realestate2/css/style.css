@@ -55,7 +55,7 @@ position: absolute;
   float: right;
 }
 #section {
-    background-image: url('/img/70.jpg');
+    background-image: url('../img/70.jpg');
     height: 450px;
     background-size: cover;
 
@@ -425,13 +425,22 @@ margin-left: 10px;
 {
     width: 150px;
 }
-.box
-{
-    width: 230px;
-    background-color: #5e0016;
-    height:230px;
-}
+
 .box a{
-    color: #fff;
+    color: #000;
     font-family: Montserrat;
+   
+}
+.btn-dashboard
+{  background-color: #ebebeb;
+    width: 250px;
+    height: 150px;
+    padding: 50px 39px 39px 50px;
+}
+.btn-dashboard:hover{
+    width: 250px;
+    height: 150px;
+    padding: 50px 39px 39px 50px;
+    box-shadow: #000 1px 9px 20px 0px;
+    transition: 0.3s;
 }
