@@ -1,0 +1,457 @@
+body
+{
+    font-family: Montserrat;
+}
+.h1, .h2,.h3,.h4, .h5, .h6
+{
+    font-family: Montserrat;
+}
+
+header
+{
+    
+  height: 50px;
+ 
+}
+.navbarbrand
+{
+display: inline-block;
+padding-top: .3125rem;
+padding-bottom: .3125rem;
+margin-right: 1rem;
+font-size: 1.25rem;
+line-height: inherit;
+white-space: nowrap;
+color: #443b3b;;
+}
+.search-btn
+{
+    text-align: right;
+    margin-top: -45px;
+}
+
+.btn-search {
+    width: 50px;
+    height: 37px;
+    margin-top: 7px;
+    margin-right: 1px;
+    border-radius: 30px;
+}
+.justify-content
+{
+    justify-content: end;
+}
+.fasearch
+{
+position: absolute;
+    margin-left: 15px;
+    margin-top: 18px;
+    color: #ffff;
+
+}
+.formsearch
+{
+    border-radius: 35px;
+}
+
+.navlogin li  a
+{
+    padding: 10px 10px 10px 10px;
+   
+}
+.navlogin a {
+        color: #000;
+        text-decoration: none;
+        background-color: transparent;
+        font-family: Montserrat;
+}
+
+#section {
+    background-image: url('../img/70.jpg');
+    height: 450px;
+    background-size: cover;
+
+}
+#form-search
+{
+    height: 100px;
+    margin-top: 220px;
+    background: linear-gradient(171deg, black, transparent);
+    padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 20px;
+   box-shadow: linear-gradient(171deg, black, transparent);
+}
+.adds
+{
+        background: #5e0016;
+        width: 150px;
+  
+        color: #ffff;
+      height: 50px;
+     
+        font-family: Montserrat;
+    }
+    .adds_view
+    {
+
+        background: #5e0016;
+        width: 150px;
+        margin-left: 10px;
+        color: #ffff;
+        padding-left: 32px;
+        padding-right: 10px;
+        padding-top: 10px;
+        border-radius: 100px;
+        margin-top: -176px;
+        font-family: Montserrat;
+    }
+    .adds_property {
+        background: #5e0016;
+        width: 140px;
+        height: 50px;
+        margin-top: -217px;
+        position: absolute;
+        border-radius: 50px;
+        margin-left: 10px;
+      
+    }
+    .adds_property h3{
+        padding: 10px;
+        color: #ffffff;
+        font-family: Montserrat;
+    }
+    .adds_property:hover {
+        background: #5e0016;
+        width: 140px;
+        height: 50px;
+        margin-top: -217px;
+        position: absolute;
+        border-radius: 50px;
+        margin-left: 10px;
+        
+    }
+      #card-img
+      { 
+         transition: 0.3s;
+
+      }
+      #card-img:hover
+      { 
+        transform: scale(1.1);
+
+      }
+  
+     
+    .rate {
+        background: #ffd60c;
+        width: 160px;
+        margin-top:-40px;
+        height: 50px;
+    }
+#card-details
+{
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+   
+}
+#card-details li  
+{
+   padding-left: 10px;
+    list-style-type: none;
+
+}
+.carddetails
+{
+    margin-top: 10px;
+    height: 85px;
+}
+.cardtext
+{
+    text-align:justify;
+    padding: 7px;
+    font-family: Montserrat; 
+   
+}
+.cardloc
+{
+    padding: 11px;
+}
+.btn-viewmore a
+{
+    text-align: center;
+    font-family: Montserrat;
+}
+.btn-viewmore 
+{
+    text-align: center;
+ 
+}
+td a ,footer p{
+    color: rgb(112, 110, 110);
+    font-family: Montserrat;
+}
+footer
+{
+    background-color: #ebebeb;
+}
+.foot {
+ background-color: #002f34;
+}
+.foot p a {
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-family: Montserrat;
+  }
+  .foot p  {
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-family: Montserrat;
+  }
+  /* single view point */
+  .thumbnail
+  {
+    width: 240px;
+    height: 160px;
+  }
+ .icon-details  li
+ {
+    list-style-type: none;
+    margin-top: 10px;
+ }
+ #card_details
+ {
+    height: 50px;
+ 
+    display: flex;
+ }
+ #card_details li
+ {
+    list-style-type: none;
+    width: 100%;
+ }
+ #card_details li a
+ {
+    color: rgb(112, 110, 110);
+    font-family: Montserrat;
+ }
+ /* new */
+.btn-view
+{
+    width: 120px;
+}
+.property_button
+{
+    margin-top: 50px;
+}
+.contact_header
+{
+    margin-top: 150px;
+}
+.contact_header h1{
+    color: #ffffff;
+    font-family: Montserrat;
+}
+#card-contact
+{
+    padding: 15px 15px 15px 15px;
+    background:#00c0c4;
+    height: 320px;
+}
+
+#form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   
+    box-shadow: #00000061 -3px 1px 20px 0px;
+}
+.address,.phone,.email
+{
+    display: flex;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+.phone  a,.email a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+#facilities
+{
+    display: flex;
+    width: 500px;
+}
+#select_form-control
+{
+    width: 50%;
+    margin-left: 50px;
+}
+#select_form_control {
+    width: 50%;
+    margin-left: 98px;
+}
+#select_formcontrol {
+    width: 50%;
+    margin-left: 47px;
+}
+.cardflex
+{
+    display: flex;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+.agent
+{
+    display: flex;
+}
+#agentdetails #nav li {
+	padding: 10px 10px 10px 40px;
+	list-style-type: none;
+}
+#agentdetails #nav li a {
+	color: #00000061;
+	font-weight:600;
+    font-family: Montserrat;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #0c0c0c;
+    border-color: #0c0c0c #0c0c0c #0c0c0c;
+}
+.textright
+{
+    text-align: right;
+}
+.edit-nav li 
+
+{
+margin-left: 10px;
+
+}
+.edit-nav a
+{
+    width: 100px;
+}
+/*  */
+#btn_danger
+{
+    width: 150px;
+}
+#fa-filter-circle-xmark
+{
+    margin-left: -50px;
+}
+
+.img-myproperty
+{
+    width: 172px;
+    height: 105px;
+}
+/*  */
+.image-link {
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+  }
+  
+  
+  /* This block of CSS adds opacity transition to background */
+  .mfp-with-zoom .mfp-container,
+  .mfp-with-zoom.mfp-bg {
+      opacity: 0;
+      -webkit-backface-visibility: hidden;
+      -webkit-transition: all 0.3s ease-out; 
+      -moz-transition: all 0.3s ease-out; 
+      -o-transition: all 0.3s ease-out; 
+      transition: all 0.3s ease-out;
+  }
+  
+  .mfp-with-zoom.mfp-ready .mfp-container {
+          opacity: 1;
+  }
+  .mfp-with-zoom.mfp-ready.mfp-bg {
+          opacity: 0.8;
+  }
+  
+  .mfp-with-zoom.mfp-removing .mfp-container, 
+  .mfp-with-zoom.mfp-removing.mfp-bg {
+      opacity: 0;
+  }
+  
+  
+  
+  /* padding-bottom and top for image */
+  .mfp-no-margins img.mfp-img {
+      padding: 0;
+  }
+  /* position of shadow behind the image */
+  .mfp-no-margins .mfp-figure:after {
+      top: 0;
+      bottom: 0;
+  }
+  /* padding for main container */
+  .mfp-no-margins .mfp-container {
+      padding: 0;
+  }
+  
+  
+  
+  /* aligns caption to center */
+  .mfp-title {
+    text-align: center;
+    padding: 6px 0;
+  }
+  .image-source-link {
+    color: #DDD;
+  }
+.link 
+{
+    list-style-type: none;
+    margin-left: -40px;
+}
+.link a{
+    color: #000;
+}
+.btnsm
+{
+    width: 150px;
+}
+
+.box a{
+    color: #000;
+    font-family: Montserrat;
+   
+}
+.btn-dashboard
+{  background-color: #ebebeb;
+    width: 250px;
+    height: 150px;
+    padding: 50px 57px 96px 50px;
+}
+
+.btn-dashboard:hover{
+    width: 250px;
+    height: 150px;
+    padding: 50px 39px 39px 50px;
+    box-shadow: #000 1px 9px 20px 0px;
+  
+  transition: 0.3s ease-out;
+}

@@ -1,0 +1,21 @@
+<?php
+
+	include_once "../core.php";
+	include_once "../core.function.php";
+	include_once "model/Property.class.php";
+	
+	protectUser(10);
+	
+	$property		=	new Property();
+	
+	$properties		=	$property	->	loadPropertiesByStatus('1');
+	
+	//op($properties); exit;
+	
+	if(isset($_SESSION['logined']))
+		$smarty->assign("user_logined", $_SESSION['logined']);
+	
+	$smarty -> assign("properties",$properties);
+	$smarty->display("approvedProperties.tpl");
+
+?>
