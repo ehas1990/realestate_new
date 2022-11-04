@@ -19,6 +19,16 @@ header
   height: 50px;
  
 }
+.banner
+{
+    background-color: #5e0016;
+    height: 300px;
+}
+#card-img-top
+{
+    width: 250px;
+    height: 250px;
+}
 .navbarbrand
 {
 display: inline-block;

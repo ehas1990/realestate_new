@@ -2,6 +2,93 @@
   and (min-device-width: 210px) 
   and (max-device-width:320px)
 {
+  .nav-tabs li
+  {
+    width: 100%;
+  }
+  .ul-points1 {
+    text-align: center;
+  }
+  .ul-points2 {
+    text-align: center;
+  }
+  .ul-view-agent
+  {
+    width: 297px;
+    height: fit-content;
+    font-size: 11px;
+    margin-left: -77px;
+  }
+  
+  #header_1
+  {
+    height: 170px;
+  }
+  .text-Agent-name {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .ul-points {
+    width: 100%;
+    
+ text-align: center;
+  }
+  .verify-icon {
+    text-align: center;
+  }
+  #card-agent-view {
+    padding: 50px 20px 50px 20px !important;
+    width: 254px !important;
+  }
+  .ul-points li {
+    display: flex;
+    margin-top: 5px;
+    float: left;
+  }
+  #card-img-top
+{
+  
+        width: 168px;
+        height: 168px;
+        margin-top: 190px;
+        margin-left: 44px;
+        border-radius: 100%;
+ 
+}
+
+/* end viewagent.css */
+
+.float_right {
+	float: none;
+}
+	.form-group
+	{
+     text-align: -webkit-center;
+	 text-align: -moz-center;
+	}
+	.tbsearch
+	{
+		text-align: -webkit-center;
+		text-align: -moz-center;
+	}
+	.table thead th {
+    vertical-align: baseline !important;
+    border-bottom: 2px solid #dee2e6;
+}
+	#maxRows {
+    width: 248px !important;
+}
+	.tb_search {
+    width: 250px;
+    float: none !important;
+}
+	
+	.table-responsive {
+    display: block !important;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
   .justify-content
 {
     justify-content:start !important;
@@ -55,25 +142,22 @@
   {
     text-align: center !important;
   }
-  .adds {
-    background: #5e0016;
-    width: 150px;
-    margin-left: 10px;
+ .adds
+{   
+   background:#5e0016;
+    width: 115px;
+    height:50px;
     color: #ffff;
-    padding-left: 32px;
-    padding-right: 10px;
-    padding-top: 10px;
-    border-radius: 100px;
-    margin-top: -149px !important;
+   
     font-family: Montserrat;
-  }
+}
   #col-sm-row
   {
     margin-top: 10px !important;
   }
   .foot {
     background-color: #002f34;
-    height: 130px !important;
+    height: 85px !important;
   }
   .foot p {
     text-align: center;
@@ -87,17 +171,125 @@
   {
     margin-top: 10px !important;
   }
-  .rate {
+.rate {
     background: #ffd60c;
     width: 160px;
-    margin-top: 57px !important;
+    height: 39px;
+}
+#card-details li {
+    padding-left: 10px;
+    list-style-type: none;
+    font-size: 12px !important;
+}
+#card-details {
     height: 50px;
-  }
+    display: flex;
+    margin-top: 10px;
+    /* width: 300px; */
+    margin-left: -43px !important;
+}
+.logo-img
+{
+width:180px !important;
+}
+.cardloc {
+    padding: 11px;
+    width: 286px !important;
+}
+.carddetails .text-center {
+    font-size: 10px !important;
+}
 }
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
 {
+  .nav-tabs li
+  {
+    width: 100%;
+  }
+  .ul-points1 {
+    text-align: center;
+  }
+  .ul-points2 {
+    text-align: center;
+  }
+  .ul-view-agent
+  {
+    width: 297px;
+    height: fit-content;
+    font-size: 11px;
+    margin-left: -77px;
+  }
+  
+  #header_1
+  {
+    height: 170px;
+  }
+  .text-Agent-name {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .ul-points {
+    width: 100%;
+    
+ text-align: center;
+  }
+  .verify-icon {
+    text-align: center;
+  }
+  #card-agent-view {
+    padding: 50px 30px 50px 26px !important;
+    width: 322px !important;
+  }
+  .ul-points li {
+    display: flex;
+    margin-top: 5px;
+    float: left;
+  }
+  #card-img-top
+{
+  
+        width: 168px;
+        height: 168px;
+        margin-top: 190px;
+        margin-left:70px;
+        border-radius: 100%;
+ 
+}
+
+  /* end viewagent.css */
+	.float_right {
+	float: none;
+}
+	.tbsearch
+	{
+		text-align: -webkit-center;
+		text-align: -moz-center;
+	}
+	.form-group
+	{
+     text-align: -webkit-center;
+	 text-align: -moz-center;
+	}
+		.table thead th {
+    vertical-align: baseline !important;
+    border-bottom: 2px solid #dee2e6;
+}
+	#maxRows {
+    width: 248px !important;
+}
+	.tb_search {
+    width: 250px;
+    float: none !important;
+}
+	
+	.table-responsive {
+    display: block !important;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
   .bg-light {
   
     z-index: 9999 !important;
@@ -146,23 +338,26 @@
   }
   .adds {
     background: #5e0016;
-    width: 150px;
-    margin-left: 10px;
+    width:115px;
+    height:50px;
     color: #ffff;
-    padding-left: 32px;
-    padding-right: 10px;
-    padding-top: 10px;
-    border-radius: 100px;
-    margin-top: -168px !important;
+   
     font-family: Montserrat;
   }
+     .rate {
+    background: #ffd60c;
+    width: 160px;
+    margin-top: -49px !important;
+    height: 50px;
+  }
+
   #col-sm-row
   {
     margin-top: 10px !important;
   }
   .foot {
     background-color: #002f34;
-    height: 230px !important;
+    height: 85px !important;
   }
   .foot p {
     text-align: center;
@@ -176,17 +371,91 @@
   {
     margin-top: 10px !important;
   }
-  .rate {
-    background: #ffd60c;
-    width: 160px;
-    margin-top:76px !important;
-    height: 50px;
-  }
+  .img-fluid {
+	height: 250px;
+	width: 425px;
+}
 }
 @media only screen 
   and (min-device-width:480px) 
   and (max-device-width:620px)
 {
+  .nav-tabs li
+  {
+    width: 100%;
+  }
+  .ul-points1 {
+    text-align: center;
+  }
+  .ul-points2 {
+    text-align: center;
+  }
+  .ul-view-agent
+  {
+    width: 297px;
+    height: fit-content;
+    font-size: 16px;
+    margin-left: -77px;
+  }
+  
+  #header_1
+  {
+    height: 170px;
+  }
+  .text-Agent-name {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .ul-points {
+    width: 100%;
+    
+ text-align: center;
+  }
+  .verify-icon {
+    text-align: center;
+  }
+  #card-agent-view {
+    padding: 50px 30px 50px 26px !important;
+    width: 479px !important;
+  }
+  .ul-points li {
+    display: flex;
+    margin-top: 5px;
+    float: left;
+  }
+  #card-img-top
+{
+  
+        width: 168px;
+        height: 168px;
+        margin-top: 190px;
+        margin-left: 144px;
+        border-radius: 100%;
+ 
+}
+
+  /* end viewagent.css */
+	.float_right {
+	float: none !important;
+}
+	.table thead th {
+    vertical-align: baseline !important;
+    border-bottom: 2px solid #dee2e6;
+}
+	#maxRows {
+    width: 248px !important;
+}
+	.tb_search {
+    width: 250px;
+    margin-top: -54px;
+}
+	
+	.table-responsive {
+    display: block !important;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
   .bg-light {
    
     z-index: 999 !important;
@@ -231,17 +500,19 @@
   {
     text-align: center !important;
   }
-  .adds {
+    .adds {
     background: #5e0016;
-    width: 150px;
-    margin-left: 10px;
+    width:115px;
+    height:50px;
     color: #ffff;
-    padding-left: 32px;
-    padding-right: 10px;
-    padding-top: 10px;
-    border-radius: 100px;
-    margin-top: -275px !important;
+   
     font-family: Montserrat;
+  }
+     .rate {
+    background: #ffd60c;
+    width: 160px;
+   margin-top: -49px !important;
+    height: 50px;
   }
   #col-sm-row
   {
@@ -263,17 +534,438 @@
   {
     margin-top: 10px !important;
   }
-  .rate {
-    background: #ffd60c;
-    width: 160px;
-    margin-top: 183px !important;
-    height: 50px;
-  }
+ .img-fluid {
+	height: 250px;
+	width: 100% !important;
+}
 }
 @media only screen 
   and (min-device-width:620px) 
+  and (max-device-width:720px)
+  {
+    
+    .ul-points1 {
+      text-align: center;
+    }
+    .ul-points2 {
+      text-align: center;
+    }
+    .ul-view-agent
+    {
+      width: 297px;
+      height: fit-content;
+      font-size: 16px;
+      margin-left: -77px;
+    }
+    
+    #header_1
+    {
+      height: 170px;
+    }
+    .text-Agent-name {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .ul-points {
+      width: 100%;
+      
+   text-align: center;
+    }
+    .verify-icon {
+      text-align: center;
+    }
+    #card-agent-view {
+      padding: 50px 30px 50px 26px !important;
+      width: 511px !important;
+    }
+    .ul-points li {
+      display: flex;
+      margin-top: 5px;
+      float: left;
+    }
+    #card-img-top
+  {
+    
+          width: 168px;
+          height: 168px;
+          margin-top: 190px;
+          margin-left: 162px;
+          border-radius: 100%;
+   
+  }
+  
+    /* end viewagent.css */
+	  .float_right {
+	float: none !important;
+}
+	  .table thead th {
+    vertical-align: baseline !important;
+    border-bottom: 2px solid #dee2e6;
+}
+	#maxRows {
+    width: 248px !important;
+}
+	.tb_search {
+    width: 250px;
+    margin-top: -54px;
+}
+	
+	.table-responsive {
+    display: block !important;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+	  #col-sm-row
+	  {
+		  margin-top:10px !important;
+	  }
+	  
+   .carddetails ,.h6
+{
+ font-size:12px !important;
+}
+   .navbar-brand 
+   {
+	   display:none;
+   }
+   .img-fluid {
+    height: 300px !important;
+	width:508px !important;
+}
+    .navbarbrand {
+     
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
+      margin-right: 1rem;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap;
+      color: #fff;
+    }
+    header {
+      
+      height: 126px !important;
+    }
+    #section {
+      background-image: url('../img/70.jpg');
+      height: 450px;
+      background-size: cover;
+      margin-top: -80px !important;
+    }
+    #form-search {
+    height: 250px !important;
+    margin-top: 150px;
+    background: linear-gradient(171deg, black, transparent);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    box-shadow: linear-gradient(171deg, black, transparent);
+}
+.formsearch
+{
+margin-top:10px !important;
+float:right;
+}
+    .adds {
+    background: #5e0016;
+    width:115px;
+    height:50px;
+    color: #ffff;
+   
+    font-family: Montserrat;
+  }
+     .rate {
+    background: #ffd60c;
+    width: 160px;
+   margin-top: -49px !important;
+    height: 50px;
+  }
+
+#card-details li {
+  /* padding-left: 10px; */
+  list-style-type: none;
+  padding: 15px 15px 15px 15px !important;
+  font-size: 12px !important;
+}
+.bg-light {
+   
+    z-index: 999 !important;
+  }
+
+#col-navlogin
+{
+  margin-top: 20px !important;
+}
+
+.logo
+{
+  text-align: center !important;
+}
+.btn-viewmore {
+    text-align: center;
+    margin-top: 15px !important;
+}
+ .img-fluid {
+	height: 250px;
+	width: 100% !important;
+}
+  }
+@media only screen 
+  and (min-device-width:720px) 
   and (max-device-width:820px)
   {
+    .ul-points {
+    
+      
+      text-align: center;
+       }
+       .verify-icon {
+         text-align:center;
+       }
+    .ul-points1
+    {
+      text-align:center;
+    }
+    .ul-points2
+    {
+      text-align:center;
+    }
+    .ul-view-agent
+    {
+      width: 297px;
+      height: fit-content;
+      font-size: 16px;
+      margin-left: -77px;
+    }
+    
+    #header_1
+    {
+      height: 170px;
+    }
+    .text-Agent-name {
+      text-align: center;
+      margin-top: 30px;
+    }
+   
+    #card-agent-view {
+      padding: 50px 30px 50px 26px !important;
+      width: 512px !important;
+    }
+    .ul-points li {
+      display: flex;
+      margin-top: 5px;
+      float: left;
+    }
+    #card-img-top
+  {
+    
+          width: 168px;
+          height: 168px;
+          margin-top: 190px;
+          margin-left: 165px;
+          border-radius: 100%;
+   
+  }
+  
+    /* end viewagent.css */
+	  	  .table thead th {
+    vertical-align: baseline !important;
+
+}
+	#maxRows {
+    width: 248px !important;
+}
+	.tb_search {
+    width: 250px;
+    margin-top: -54px;
+}
+	
+	.table-responsive {
+    display: block !important;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+	  .cardloc {
+	
+	width: 300px;
+}
+.navbarbrand {
+	display:block !important;
+	padding-top: .3125rem;
+	padding-bottom: .3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+	color: #fff;
+}
+   .navbar-brand {
+	display: none;
+	padding-top: .3125rem;
+	padding-bottom: .3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+}
+    header {
+      
+      height: 126px !important;
+    }
+    #section {
+      background-image: url('../img/70.jpg');
+      height: 450px;
+      background-size: cover;
+      margin-top: -80px !important;
+    }
+    #form-search {
+    height:134px !important;
+    margin-top: 150px;
+    background: linear-gradient(171deg, black, transparent);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    box-shadow: linear-gradient(171deg, black, transparent);
+}
+#h6 {
+	font-size: 10px !important;
+	font-weight:800;
+}
+#card-details {
+	height: 80px;
+	display: grid;
+	margin-top: 10px;
+
+}
+.card {
+	height:auto !important;
+}
+#formsearch_btn
+{
+margin-top:-2px !important;
+}
+.formsearch
+{
+margin-top:10px !important;
+}
+    .adds {
+    background: #5e0016;
+    width:115px;
+    height:50px;
+    color: #ffff;
+   
+    font-family: Montserrat;
+  }
+     .rate {
+    background: #ffd60c;
+    width: 100px;
+   margin-top: -49px !important;
+    height: 50px;
+  }
+
+#card-details li {
+  /* padding-left: 10px; */
+  list-style-type: none;
+
+  font-size: 12px !important;
+}
+
+#col-navlogin
+{
+  margin-top: 20px !important;
+}
+
+.logo
+{
+  text-align: center !important;
+}
+.btn-viewmore {
+    text-align: center;
+    margin-top: 15px !important;
+}
+
+}
+@media only screen 
+  and (min-device-width:820px) 
+  and (max-device-width:1200px)
+  {
+    .ul-points {
+    
+      
+      text-align: center;
+       }
+       .verify-icon {
+         text-align: end;
+       }
+    .ul-points1
+    {
+      text-align: end;
+    }
+    .ul-points2
+    {
+      text-align: end;
+    }
+    .ul-view-agent
+    {
+      width: 297px;
+      height: fit-content;
+      font-size: 16px;
+      margin-left: -77px;
+    }
+    
+    #header_1
+    {
+      height: 170px;
+    }
+    .text-Agent-name {
+      text-align: center;
+      margin-top: 30px;
+    }
+   
+    #card-agent-view {
+      padding: 50px 30px 50px 26px !important;
+      width: 693px !important;
+    }
+    .ul-points li {
+      display: flex;
+      margin-top: 5px;
+      float: left;
+    }
+    #card-img-top
+  {
+    
+          width: 168px;
+          height: 168px;
+          margin-top: 190px;
+          margin-left: 251px;
+          border-radius: 100%;
+   
+  }
+  
+    /* end viewagent.css */
+	  .btn-dashboard {
+    background-color: #ebebeb;
+    width: 190px;
+    height: 150px;
+    padding: 50px 57px 96px 50px;
+	    font-size: 12px;
+}
+.btn-dashboard:hover{
+    width: 150px;
+    height: 150px;
+    padding: 50px 29px 29px 50px;
+    box-shadow: #000 1px 9px 20px 0px;
+  font-size: 12px;
+  transition: 0.2s ease-out;
+  margin-left:30px;
+}
+	  .cardloc {
+	
+	width: 300px;
+}
+
     .navbarbrand {
       display: none !important;
       padding-top: .3125rem;
@@ -294,28 +986,55 @@
       background-size: cover;
       margin-top: -80px !important;
     }
-    .adds {
-      background: #5e0016;
-      width: 150px;
-      margin-left: 10px;
-      color: #ffff;
-      padding-left: 32px;
-      padding-right: 10px;
-      padding-top: 10px;
-      border-radius: 100px;
-      margin-top: -122px !important;
-      font-family: Montserrat;
-  }
-  .rate {
-    background: #ffd60c;
-    width: 120px !important;
-    margin-top: 31px;
-    height: 50px;
+    #form-search {
+    height:134px !important;
+    margin-top: 150px;
+    background: linear-gradient(171deg, black, transparent);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    box-shadow: linear-gradient(171deg, black, transparent);
 }
+#h6 {
+	font-size: 10px !important;
+	font-weight:800;
+}
+#card-details {
+	height: 80px;
+	display: grid;
+	margin-top: 10px;
+
+}
+.card {
+	height:auto !important;
+}
+#formsearch_btn
+{
+margin-top:-2px !important;
+}
+.formsearch
+{
+margin-top:10px !important;
+}
+    .adds {
+    background: #5e0016;
+    width:115px;
+    height:50px;
+    color: #ffff;
+   
+    font-family: Montserrat;
+  }
+     .rate {
+    background: #ffd60c;
+    width: 100px;
+   margin-top: -49px !important;
+    height: 50px;
+  }
+
 #card-details li {
   /* padding-left: 10px; */
   list-style-type: none;
-  padding: 5px 5px 5px 5px !important;
+
   font-size: 12px !important;
 }
 
@@ -328,4 +1047,10 @@
 {
   text-align: center !important;
 }
-  }
+.btn-viewmore {
+    text-align: center;
+    margin-top: 15px !important;
+}
+
+}
+
